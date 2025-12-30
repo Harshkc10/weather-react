@@ -37,3 +37,29 @@ It demonstrates API integration, React hooks, and clean UI handling.
    ```bash
    git clone https://github.com/Harshkc10/weather-react.git
    cd weather-react
+
+2. **Install dependencies**
+   npm install
+   
+3.API Key Setup
+
+   Create an account on https://openweathermap.org/
+   
+   Generate your API key
+   
+   Create a .env file in the project root
+   
+   Add the following inside .env:
+   
+   env
+   Copy code
+   REACT_APP_WEATHER_API_KEY=your_api_key_here
+
+4. Run the project
+   
+   npm start
+   The application will run locally at:
+   http://localhost:3000
+
+
+
