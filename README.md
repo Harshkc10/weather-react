@@ -39,10 +39,11 @@ It demonstrates API integration, React hooks, and clean UI handling.
    cd weather-react
 
 2. **Install dependencies**
+   ```bash
    npm install
    
-3.API Key Setup
-
+3. **API Key Setup**
+   ```bash
    Create an account on https://openweathermap.org/
    
    Generate your API key
@@ -55,8 +56,8 @@ It demonstrates API integration, React hooks, and clean UI handling.
    Copy code
    REACT_APP_WEATHER_API_KEY=your_api_key_here
 
-4. Run the project
-   
+4. **Run the project**
+   ```bash
    npm start
    The application will run locally at:
    http://localhost:3000
